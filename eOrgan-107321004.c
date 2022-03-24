@@ -10,7 +10,6 @@
 #define pitch_max 6
 #define pitch_min 2
 
-
 int keypad();
 void Timer_init();
 void display(int target, int target2);
@@ -27,7 +26,8 @@ int __xdata record_note[500] = {0}, record_pitch[500] = {0};
 
 int main() {
     Timer_init();
-    int num, mins = 0, plus = 0, recorded = 0, chord = 0;
+    _Bool mins = 0, plus = 0, recorded = 0, chord = 0;
+    int num;
     while(1) {
         num = keypad();
         // button up
