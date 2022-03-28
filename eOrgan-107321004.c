@@ -10,10 +10,7 @@
 #define pitch_max 6
 #define pitch_min 2
 
-int keypad();
 void Timer_init();
-void display(int target, int target2);
-void delay(unsigned int count);
 /* P0: keypad input, P2: 7's segment display, P1_0: speaker, P1_6 & P1_7 control display */
 int control, shift, index, init, i, mode, counter, pause, pitch;
 /* muusic frequency: keypad */ /* C2-C6 */
