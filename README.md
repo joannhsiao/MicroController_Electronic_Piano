@@ -21,4 +21,4 @@ $ make
 ```
 
 ## Demo
-
+![demo](https://github.com/joannhsiao/MicroController_Electronic_Piano/blob/main/demo_video.mp4)
