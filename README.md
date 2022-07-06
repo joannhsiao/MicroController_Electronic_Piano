@@ -1,5 +1,5 @@
 # MicroController_Electronic_Piano
-- Hardware: 8051  
+- Hardware: 8051, keypad, 7-seg. LED
 - Description:  
 	- timer: 0.4sec
 	- keypad:  
@@ -10,7 +10,15 @@
 		- play record: 15  
 	- LED: used to display the pitch
 
+## script
+1. `eOrgan-107321004.c`: main program
+2. `keypad.c`: input from keypad
+3. `display.c`: display on the 7-seg LED
+
 ## run the program
 ```
 $ make
 ```
+
+## Demo
+
