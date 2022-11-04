@@ -23,3 +23,7 @@ $ make
 ## Demo
 https://user-images.githubusercontent.com/59599987/177502356-ba776bee-cb79-45eb-9631-880a9eaef9ca.mp4
 
+<video width="320" height="240" controls>
+    <source src="demo_video.mp4" type="video/mp4">
+</video>
+```
